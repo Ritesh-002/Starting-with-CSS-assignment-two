@@ -1,0 +1,51 @@
+Ans1.
+CSS selectors are used in HTML to target specific elements and apply styling rules to them. They are essential for defining how different parts of a web page should look and behave.
+
+Ans2.
+Here are the main types of CSS selectors:
+
+1. Type Selector
+Targets elements based on their HTML tag name.
+2. Class Selector
+Targets elements with a specific class attribute.
+3. ID Selector
+Targets a single element based on its unique ID attribute.
+4. Attribute Selector
+Targets elements based on their attribute values.
+5. Descendant Selector
+Targets elements that are descendants of a specific element.
+6. Child Selector
+Targets elements that are direct children of a specific parent element.
+
+Ans3.
+To include external fonts in a web project and apply them using CSS, you typically follow these steps:
+
+1. Find a Suitable Web Font
+Choose a web font that suits your design needs. You can find web fonts from various sources such as Google Fonts, Adobe Fonts (formerly Typekit), Font Squirrel, or directly from font foundries.
+
+2. Link the Font in Your HTML File
+Add a <link> tag in the <head> section of your HTML file to link to the external font file. This is usually provided by the web font service you're using.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using External Fonts</title>
+  <!-- Link to Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <!-- Example CSS styles -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph using the Roboto font.</p>
+</body>
+</html>
